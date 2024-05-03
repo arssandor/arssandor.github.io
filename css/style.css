@@ -20,6 +20,15 @@ nav .brand-logo {
 
 body {
   font-family: "Railaway";
+  background-color: black;
+}
+
+.highlight {
+  background-color: #5e35b1;
+}
+
+.highlight-f::selection {
+  background-color: #cddc39;
 }
 
 p {
