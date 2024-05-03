@@ -6,72 +6,72 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #8bc34a ;
-}
+ nav ul a,
+ nav .brand-logo {
+   color: #8bc34a ;
+ }
+ 
+ .brand-logo {
+   color: #cddc39;
+   font-family: "Mr De Haviland", cursive;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ body {
+   font-family: "Railaway";
+   background-color: black;
+ }
 
-.brand-logo {
-  color: #cddc39;
-  font-family: "Mr De Haviland", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-body {
-  font-family: "Railaway";
-  background-color: black;
-}
-
-.highlight {
+ ::selection {
   background-color: #5e35b1;
 }
-
-.highlight-f::selection {
-  background-color: #cddc39;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.sidenav-trigger {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
+ 
+ .highlight::selection {
+   background-color: #cddc39;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
