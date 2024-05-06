@@ -84,3 +84,11 @@
  footer.page-footer {
    margin: 0;
  }
+
+ .ar-img {
+  margin-bottom: -15%;
+ }
+
+ .z-depth-3-ar{
+  box-shadow: 2px 2px #cddc39;
+ }
