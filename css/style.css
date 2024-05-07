@@ -177,21 +177,21 @@
     }
 
     .pp-1:hover{
-      background-color: purple;
+      background-color: rgb(128, 0, 128, 0.4);
     }
 
     .pp-2:hover{
-      background-color: teal;
+      background-color: rgb(0, 128, 128, 0.4);
     }
 
     .pp-3:hover{
-      background-color: orange;
+      background-color: rgb(255, 165, 0, 0.4);
     }
 
     .pp-4:hover{
-      background-color: white;
+      background-color: rgba(35, 105, 26, 0.4);
     }
 
     .pp-5:hover{
-      background-color: grey;
+      background-color: rgb(128, 128, 128, 0.4);
     }
