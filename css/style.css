@@ -92,3 +92,89 @@
  .z-depth-3-ar{
   box-shadow: 2px 2px #cddc39;
  }
+
+/* SKILLS SECTION */
+#web_skills {width: 400px;margin: 0 auto;position: relative;padding: 30px 0;line-height: 2em;font-size: 14px;}
+#web_skills li {list-style: none; margin-bottom: 35px;height: 30px; color: #666;}
+#web_skills li h2 {position: relative; top: -30px; font-size: 16px;}
+
+#dev_skills {width: 400px;margin: 0 auto;position: relative;padding: 30px 0;line-height: 2em;font-size: 14px;}
+#dev_skills li {list-style: none; margin-bottom: 35px;height: 30px; color: #666;}
+#dev_skills li h2 {position: relative; top: -30px; font-size: 16px;}
+
+#graphic_skills {width: 400px;margin: 0 auto;position: relative;padding: 30px 0;line-height: 2em;font-size: 14px;}
+#graphic_skills li {list-style: none; margin-bottom: 35px;height: 30px; color: #666;}
+#graphic_skills li h2 {position: relative; top: -30px; font-size: 16px;}
+
+.bar {height:30px; position:absolute;}
+
+.html {width:100%;background: #6dc86d; 
+-webkit-animation:html 3s ease-in-out;
+   -moz-animation:html 3s ease-in-out;
+}
+
+.css {width:70%;background: #6dc86d;
+-webkit-animation:css 3s ease-in-out;
+   -moz-animation:css 3s ease-in-out;
+}
+
+.javascript {width:55%;background: #6dc86d;
+-webkit-animation:javascript 3s ease-in-out;
+   -moz-animation:javascript 3s ease-in-out;
+}
+
+.wordpress {width:90%;background: #6dc86d;
+-webkit-animation:wordpress 3s ease-in-out;
+   -moz-animation:wordpress 3s ease-in-out;
+}
+
+.java {width:100%;background: #6dc86d; 
+  -webkit-animation:html 3s ease-in-out;
+     -moz-animation:html 3s ease-in-out;
+  }
+  
+  .c {width:40%;background: #6dc86d;
+  -webkit-animation:css 3s ease-in-out;
+     -moz-animation:css 3s ease-in-out;
+  }
+  
+  .php {width:50%;background: #6dc86d;
+  -webkit-animation:javascript 3s ease-in-out;
+     -moz-animation:javascript 3s ease-in-out;
+  }
+  
+  .python {width:65%;background: #6dc86d;
+  -webkit-animation:wordpress 3s ease-in-out;
+     -moz-animation:wordpress 3s ease-in-out;
+  }
+
+  .photoshop {width:100%;background: #6dc86d; 
+    -webkit-animation:html 3s ease-in-out;
+       -moz-animation:html 3s ease-in-out;
+    }
+    
+    .illustrator {width:70%;background: #6dc86d;
+    -webkit-animation:css 3s ease-in-out;
+       -moz-animation:css 3s ease-in-out;
+    }
+    
+    .xd {width:65%;background: #6dc86d;
+    -webkit-animation:javascript 3s ease-in-out;
+       -moz-animation:javascript 3s ease-in-out;
+    }
+    
+    .aftereffects {width:30%;background: #6dc86d;
+    -webkit-animation:wordpress 3s ease-in-out;
+       -moz-animation:wordpress 3s ease-in-out;
+    }
+
+/* SKILL VALUES */
+@-moz-keyframes html 				{ 0% {width:0;} 100% {width:100%;}}
+@-moz-keyframes css        			{ 0% {width:0;} 100% {width:80%;} }
+@-moz-keyframes javascript     		{ 0% {width:0;} 100% {width:55%;} }
+@-moz-keyframes wordpress   		{ 0% {width:0;} 100% {width:90%;} }
+
+@-webkit-keyframes html   			{ 0% {width:0;} 100% {width:100%;}}
+@-webkit-keyframes css        		{ 0% {width:0;} 100% {width:80%;} }
+@-webkit-keyframes javascript      	{ 0% {width:0;} 100% {width:55%;} }
+@-webkit-keyframes wordpress   		{ 0% {width:0;} 100% {width:90%;} }
