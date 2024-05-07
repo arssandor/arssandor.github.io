@@ -129,41 +129,49 @@
 }
 
 .java {width:100%;background: #6dc86d; 
-  -webkit-animation:html 3s ease-in-out;
-     -moz-animation:html 3s ease-in-out;
+  -webkit-animation:java 3s ease-in-out;
+     -moz-animation:java 3s ease-in-out;
   }
   
   .c {width:40%;background: #6dc86d;
-  -webkit-animation:css 3s ease-in-out;
-     -moz-animation:css 3s ease-in-out;
+  -webkit-animation:c 3s ease-in-out;
+     -moz-animation:c 3s ease-in-out;
   }
   
   .php {width:50%;background: #6dc86d;
-  -webkit-animation:javascript 3s ease-in-out;
-     -moz-animation:javascript 3s ease-in-out;
+  -webkit-animation:php 3s ease-in-out;
+     -moz-animation:php 3s ease-in-out;
   }
   
   .python {width:65%;background: #6dc86d;
-  -webkit-animation:wordpress 3s ease-in-out;
-     -moz-animation:wordpress 3s ease-in-out;
+  -webkit-animation:python 3s ease-in-out;
+     -moz-animation:python 3s ease-in-out;
   }
 
   .photoshop {width:100%;background: #6dc86d; 
-    -webkit-animation:html 3s ease-in-out;
-       -moz-animation:html 3s ease-in-out;
+    -webkit-animation:photoshop 3s ease-in-out;
+       -moz-animation:photoshop 3s ease-in-out;
     }
     
     .illustrator {width:70%;background: #6dc86d;
-    -webkit-animation:css 3s ease-in-out;
-       -moz-animation:css 3s ease-in-out;
+    -webkit-animation:illustrator 3s ease-in-out;
+       -moz-animation:illustrator 3s ease-in-out;
     }
     
     .xd {width:65%;background: #6dc86d;
-    -webkit-animation:javascript 3s ease-in-out;
-       -moz-animation:javascript 3s ease-in-out;
+    -webkit-animation:xd 3s ease-in-out;
+       -moz-animation:xd 3s ease-in-out;
     }
     
     .aftereffects {width:30%;background: #6dc86d;
-    -webkit-animation:wordpress 3s ease-in-out;
-       -moz-animation:wordpress 3s ease-in-out;
+    -webkit-animation:aftereffects 3s ease-in-out;
+       -moz-animation:aftereffects 3s ease-in-out;
+    }
+
+    .btn_send:hover{
+      background-color: #5e35b1;
+    }
+
+    .sendicon{
+      font-size: 80% !important;
     }
