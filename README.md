@@ -1,5 +1,5 @@
 # alessandroromano
-CV website as portfolio!
+CV website as portfolio
 
 # USEFUL
 # git log style
